@@ -1,6 +1,6 @@
 # Parkinson's Disease Classification
 
-**One-line:** A machine-learning project that analyzes speech features to classify Parkinson's disease using ensemble methods (Random Forest) and exploratory analysis in a Jupyter Notebook.
+**One-line:** A machine-learning project that analyzes speech features to classify Parkinson's disease using ensemble methods (Random Forest) 
 
 ---
 
@@ -87,29 +87,12 @@ jupyter
 ipykernel
 joblib
 ```
-
-Add any other packages you use in the notebook (e.g., `xgboost`, `imbalanced-learn`) to this file.
-
----
-
 ## ✅ Reproducibility checklist
 
 1. Confirm `pd_speech_features.csv` is the same version used in the notebook (file hash or timestamp).
 2. Set a random seed before model training for reproducible splits: `random_state=42` (or your chosen seed).
 3. If cross-validation is used, specify number of folds and scoring metric.
 4. Save final model using `joblib.dump(model, "rf_model.joblib")` and include the path in this README.
-
----
-
-## 📊 Where to put results / suggested additions
-
-* Add a small `assets/` folder with:
-
-  * `confusion_matrix.png`
-  * `roc_auc.png`
-  * `feature_importance.png`
-* Add a `models/` folder with the trained model `rf_model.joblib` (if you want to share it).
-* Add a short `results.md` summarizing final numeric results (accuracy, precision, recall, F1) and the train/test split method.
 
 ---
 
@@ -121,13 +104,6 @@ Add any other packages you use in the notebook (e.g., `xgboost`, `imbalanced-lea
 * **Validation:** Use stratified k-fold cross-validation to get stable performance estimates.
 
 ---
-
-## 📌 License & attribution
-
-Add your preferred license file (e.g., `LICENSE` with MIT). If this dataset is derived from a public source, add a `DATA_SOURCE.md` stating the original dataset citation and link.
-
----
-
 ## 🤝 Contributing
 
 If you'd like contributions:
